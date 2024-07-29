@@ -10,14 +10,14 @@ export default function page() {
   return (
     <main>
       <VideoArea />
-      <Image
+      {/* <Image
         src="/workInProgress.png"
         width={1440}
         height={1080}
         alt="work in progress"
-      />
+      /> */}
       <Places />
-      <InfoForm />
+      {/* <InfoForm /> */}
       <Discount />
       <Articles />
 

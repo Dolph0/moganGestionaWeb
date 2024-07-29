@@ -9,17 +9,16 @@ export default function Meter() {
   return (
     <main>
       <Banner />
-      <Image
+      {/* <Image
         src="/workInProgress.png"
         width={1440}
         height={1080}
         alt="work in progress"
-      />
+      /> */}
       <Info />
       <TaxRate />
       <Content />
       <Map />
-
     </main>
   );
 }

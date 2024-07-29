@@ -5,14 +5,14 @@ import Image from "next/image";
 export default function Housing() {
   return (
     <main>
-      <Banner />
+      {/* <Banner /> */}
       <Image
         src="/workInProgress.png"
         width={1440}
         height={1080}
         alt="work in progress"
       />
-      <Info />
+      {/* <Info /> */}
     </main>
   );
 }

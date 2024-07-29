@@ -194,19 +194,19 @@ const page = (props: Props) => {
           </Link>
 
           <Link
-            href="/portal/contratos-encomiendas"
-            className="rounded-tl-3xl max-[400px]:px-4 px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
-          >
-            <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
-              Contratos y encomiendas
-            </p>
-          </Link>
-          <Link
             href="/portal/empleados"
             className="rounded-tl-3xl max-[400px]:px-4 px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
           >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Empleados
+            </p>
+          </Link>
+          <Link
+            href="/portal/contratos-encomiendas"
+            className="rounded-tl-3xl max-[400px]:px-4 px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
+            <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
+              Contratos y encomiendas
             </p>
           </Link>
           <Link

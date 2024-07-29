@@ -15,7 +15,7 @@ const navigation = [
   { name: "Trámites frecuentes", href: "/pagos", current: false },
   { name: "Portal de transparencia", href: "/portal", current: true },
   { name: "Servicios", href: "/#servicios", current: false },
-  { name: "Parking", href: "/parking", current: false },
+  // { name: "Parking", href: "/parking", current: false },
   { name: "Noticias", href: "/#ultimas-noticias", current: false },
   { name: "FAQ", href: "/faq", current: false },
 ];

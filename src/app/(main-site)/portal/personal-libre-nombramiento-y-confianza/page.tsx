@@ -19,7 +19,7 @@ const page = (props: Props) => {
               Eduardo Álamo Perera
             </h3>
             <h5 className="text-base md:text-xl lg:text-2xl text-center md:text-left">
-              Gerente
+              Director General
             </h5>
             <p className="pt-4 md:pt-10 text-sm text-center md:text-left sm:text-base lg:text-lg max-w-[540px]">
               D. Eduardo Álamo Perera , gerente por nombramiento NO participa en

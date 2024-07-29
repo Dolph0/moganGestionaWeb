@@ -19,11 +19,11 @@ export default function Content() {
               alt={"image one"}
             />
             <div className="border-y divide-y divide-brand-teal border-brand-teal">
-              <Accordion title="Reservas">
+              {/* <Accordion title="Reservas">
                 Reserva tu plaza y no te preocupes de dónde estacionar cuando
                 vayas a realzar tus gestiones, disfrutar de la playa o de
                 vacaciones.
-              </Accordion>
+              </Accordion> */}
               <Accordion title="Estancias de rotación">
                 Tienes <strong>tarifas para aparcar tu vehículo</strong> desde
                 0,0167 €
@@ -58,7 +58,7 @@ export default function Content() {
               alt={"image two"}
             />
             <div className="border-y divide-y divide-brand-teal border-brand-teal">
-              <Accordion title="Reservas">
+              {/* <Accordion title="Reservas">
                 Puedes reservar plaza de parking para tu moto.
                 <br />
                 <br />
@@ -67,7 +67,7 @@ export default function Content() {
                 <br />
                 <br />
                 *Consulta nuestras tarifas
-              </Accordion>
+              </Accordion> */}
               <Accordion title="Estancias de rotación">
                 Tienes <strong>tarifas para aparcar tu vehículo</strong> desde
                 0,0167 €
@@ -99,14 +99,14 @@ export default function Content() {
             />
             <div className="border-y divide-y divide-brand-teal border-brand-teal">
               <Accordion title="Punto ECO">
-                xxxxxxxxxxxxxxxx
+                La carga es gratuita en nuestro parking.
                 <br />
                 <br />
                 *Consulta las tarifas de aparcamiento.
               </Accordion>
             </div>
           </div>
-          <div className="space-y-3">
+          {/* <div className="space-y-3">
             <h3 className="font-bold text-xl lg:text-2xl text-brand-blue">
               Bicicletas
             </h3>
@@ -124,7 +124,7 @@ export default function Content() {
                 nuestra zona cubierta del parking.
               </Accordion>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

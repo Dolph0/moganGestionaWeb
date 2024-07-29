@@ -57,20 +57,21 @@ export default function Content() {
               Publicidad exterior
             </h2>
             <p className="text-sm text-dark max-[430px]:text-justify min-h-[80px] sm:min-h-[100px]">
-              ¿Quieres que te vean a pié de calle o en áreas transitables?
+              Servicio disponible proximamente.
+              {/* ¿Quieres que te vean a pié de calle o en áreas transitables?
               <br />
               <br />
               Coloca tu publicidad en uno de los laterales reservados para este
-              espacio en los parquímetros de Mogán y atrapa todas las miradas.
+              espacio en los parquímetros de Mogán y atrapa todas las miradas. */}
             </p>
-            <div className="flex justify-end pt-3 sm:pt-4">
+            {/* <div className="flex justify-end pt-3 sm:pt-4">
               <a
                 href="#"
                 className="w-[170px] h-[37px] border border-brand-teal-light rounded-md text-white font-bold bg-brand-teal flex justify-center items-center hover:bg-opacity-85 transition-all"
               >
                 Información
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

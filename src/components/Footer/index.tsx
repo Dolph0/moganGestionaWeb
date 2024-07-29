@@ -253,7 +253,7 @@ const Footer = () => {
         // },
         {
           text: "Sala de prensa",
-          url: "/blog/mogán-ya-gestiona-de",
+          url: "/#",
         },
         // {
         //   text: "Eventos",
