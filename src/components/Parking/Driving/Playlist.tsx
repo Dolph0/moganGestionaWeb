@@ -27,7 +27,7 @@ export default function Playlist() {
             </p>
             <div className="pt-10 sm:pt-3 max-md:flex max-md:justify-center ">
               <a
-                href="#"
+                href="https://open.spotify.com/playlist/6JxZ2erEWGQTtYX2U9uwy4?si=jSdLYaalRHOqUjAeK9baFw&pi=K0QE-zhDR76J2"
                 className="inline-block px-5 py-2 rounded-md bg-brand-green font-extrabold text-white hover:bg-opacity-85 transition-all"
               >
                 Accede a la Playlist

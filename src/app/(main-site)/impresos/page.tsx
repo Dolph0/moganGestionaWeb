@@ -24,7 +24,10 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <a href="/ModeloDeclaracion.pdf" download>
+            <a
+              href="/Modelo-Declaracioìn-IIVTNU_Plusvalias_Rellenabel_Gestiona.pdf"
+              download
+            >
               <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
             </a>
             <p className="text-center text-[15px] text-brand-blue">
@@ -33,7 +36,10 @@ const page = (props: Props) => {
           </div>
 
           <div className="flex justify-center items-center flex-col gap-3">
-            <a href="/correccióndedatos.pdf" download>
+            <a
+              href="/Solicitud_Correccion_de_Datos_rellenable_GESTIONA.pdf"
+              download
+            >
               <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
             </a>
             <p className="text-center text-[15px] text-brand-blue">
@@ -41,7 +47,10 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <a href="/Formulario-domiciliacion-modificado.pdf" download>
+            <a
+              href="/Formulario-domiciliacion-modificado_GESTIONA.pdf"
+              download
+            >
               <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
             </a>
             <p className="text-center text-[15px] text-brand-blue">
@@ -49,7 +58,10 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <a href="/OVTsolicitudadhesion.docx" download>
+            <a
+              href="/OVT-Solicitud-adhesion-notificacion-electronica_GESTIONA.pdf"
+              download
+            >
               <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
             </a>
             <p className="text-center text-[15px] text-brand-blue">
@@ -57,7 +69,10 @@ const page = (props: Props) => {
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <a href="/OVT-solicitud-renuncia.docx" download>
+            <a
+              href="/OVT-Solicitud-renuncia-notificacion-electronica_GESTIONA.pdf"
+              download
+            >
               <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
             </a>
             <p className="text-center text-[15px] text-brand-blue">

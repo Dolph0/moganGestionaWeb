@@ -260,12 +260,12 @@ export default function Home() {
             title="Zona Azul"
             link="/zona-azul"
           />
-          <LinkedSections
+          {/* <LinkedSections
             imageUrl="/VPO.png"
             subtitle="Promociones de viviendas"
             title="VPO"
             link="/vpo"
-          />
+          /> */}
         </div>
         <div>
           <VideoSection />
