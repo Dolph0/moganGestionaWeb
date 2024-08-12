@@ -116,6 +116,8 @@ export default function Beaches() {
     nextArrow: <CarouselNextArrow />,
     prevArrow: <CarouselPrevArrow />,
   };
+
+
   return (
     <section className="relative w-full px-8  py-12 sm:py-[66px] space-y-8 sm:space-y-12">
       <div className="max-w-screen-xl mx-auto space-y-12">
@@ -128,11 +130,13 @@ export default function Beaches() {
           </p>
         </div>
         <div className="hero-carousel hidden sm:block">
+       
           <Slider {...settings}>
             {playas.map((playa, index) => (
               <div
                 key={index}
-                className="relative flex flex-col items-center justify-end bg-[#004870] h-[339px] w-[213px] rounded-[30px]"
+                className="relative flex-shrink-0 flex flex-col items-center justify-end bg-[#004870] h-[339px] w-[213px] min-w-[213px] max-w-[213px] mx-2 rounded-[30px] overflow-x-auto whitespace-nowrap"
+
               >
                 <Image
                   alt="Playa"
@@ -166,7 +170,7 @@ export default function Beaches() {
               <div className="relative flex flex-col items-center justify-end bg-[#004870] h-[213px] sm:w-[156px] overflow-hidden rounded-[15px] mx-auto">
                 <Image
                   alt="Playa"
-                  src={playa.imgMobile}
+                  src={playa.img}
                   layout="cover"
                   className="absolute top-0 left-0 inset-0 top object-cover w-full h-[140px]"
                   width={156}
@@ -189,3 +193,15 @@ export default function Beaches() {
     </section>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
